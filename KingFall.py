@@ -48,7 +48,7 @@ def play():
     ops = options()
     usr = user()
 
-    initial_in = input("Challenge mode or coninuous?")
+    initial_in = input("Challenge mode or coninuous?: ")
 
     if initial_in.lower() == 'challenge':
         while (usr.people, usr.tech, usr.karma > -5):

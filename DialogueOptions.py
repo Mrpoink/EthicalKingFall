@@ -56,3 +56,5 @@ class options():
                 return 1, 2, 1
             case 17:
                 return 1, -1, 2
+            case _:
+                return 0, 0, 0
